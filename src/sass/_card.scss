@@ -18,12 +18,12 @@
 
  .cardShell{
       
-            margin: 10rem 10rem;
+            margin: 10rem ;
         
 
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-            grid-gap: 5rem;
+            grid-gap: 10rem;
 
 
         @media only screen and (max-width: $bp-phone){
@@ -36,8 +36,8 @@
 
             &__cards{
         
-                width: 200px;
-                height: 250px;
+                width: 300px;
+                height: 350px;
              
 
 
@@ -52,11 +52,11 @@
                 cursor: pointer;
         box-shadow: #101d2c 1.95px 1.95px 2.6px;
              
-        @media only screen and (max-width: $bp-medium){
-         width: 160px;
-         height: 220px;
+    //     @media only screen and (max-width: $bp-medium){
+    //      width: 160px;
+    //      height: 220px;
     
-    }
+    // }
     
 
                

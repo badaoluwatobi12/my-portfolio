@@ -26,6 +26,11 @@
     display: grid;
     justify-self: center;
     margin: auto;
+
+    @media only screen and (max-width: $bp-smaller){
+        width: 80%;
+     }
+     
  
 
 
