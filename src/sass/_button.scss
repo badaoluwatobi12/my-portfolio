@@ -1,0 +1,39 @@
+.button{
+   border: solid   #555555 1px;
+   border-radius: 100px;
+   width: 100px;
+   height: 50px;
+    font-size : 14px ; 
+
+    color : #555555  ;
+    letter-spacing : 2px ;
+
+
+    &:link,
+    &:active{
+          text-decoration: none;
+    }
+}
+
+
+.check{
+
+    color: orangered;
+    font-size: 13px;
+
+    @media only screen and (max-width: $bp-small){
+    font-size: 11px;
+         }
+
+
+    &:link,
+    &:active{
+          text-decoration: underline;
+    }
+
+}
+
+
+
+
+
