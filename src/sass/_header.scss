@@ -1,9 +1,6 @@
 .header{
     grid-column: 1 / -1;
-    
-
     background: #111;
-
 
     display: grid;
     justify-items: center;
@@ -17,7 +14,6 @@
 }
 
 .firstlink{
-
     width: 100%;
 
   display: grid;
@@ -44,8 +40,7 @@
 }
 
 .secondlink{
-
-  width: 100%;
+width: 100%;
 
 display: grid;
 justify-items: center;
@@ -56,10 +51,8 @@ grid-template-columns: repeat(2, 1fr);
 
 
 .logo{
-
         width: 20%;
         height: auto;
-        // z-index: -1;
         opacity: .90; 
         border-radius: 100%;    
 }
@@ -91,7 +84,6 @@ grid-template-columns: repeat(2, 1fr);
 
     
     &:active{
-      
       transform: translateY(-2.5px) ;
       }
   

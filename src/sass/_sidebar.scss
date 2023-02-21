@@ -42,12 +42,7 @@
     filter: brightness(85%);
 
     @media only screen and (max-width: $bp-small){
-        
-        // margin: auto;
         display: none;
-  
-     
-     
          }
     
 }
@@ -247,14 +242,6 @@
         display: grid;
 
          }
-
-        //  @media only screen and (max-width: $bp-phone){
-        
-        //     margin: -8rem 0;
-        //       display: grid;
-        //       // border: solid red 2px;
-        //        }
-
 
 }
 .language{

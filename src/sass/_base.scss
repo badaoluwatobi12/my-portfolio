@@ -53,7 +53,7 @@ body{
     display: grid;
     grid-row-gap: 5px ;
     grid-column-gap: 5px ;
-    grid-template-rows: 8vw repeat(4, min-content);
+    grid-template-rows: 8vw  min-content 1fr min-content min-content;
     
     grid-template-columns:
  [sidebar-start] 25vh [sidebar-end full-start] 1fr repeat(4, minmax(min-content,15rem))1fr[full-end];
